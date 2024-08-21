@@ -68,7 +68,7 @@ public class Testing {
     
 }
 ```
-More than 1 member function can be created inside a class like C++
+More than 1 member function can be created inside a class
 ```java
 public class Testing {
 
