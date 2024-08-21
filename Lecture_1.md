@@ -1,5 +1,6 @@
 # Overview of Java (Review CPS 180)
 
+## Java Classes
 Java uses classes to create a program
 ```java
 public class HelloWorld
@@ -21,6 +22,7 @@ public class HelloWorld
     }
 }
 ```
+## Class Level Functions
 Word `static` means it is a class level function and not an object/instance level function. So you can access this function without creating an object of a class. You can create more than one static function in a class.
 ```java
 public class HelloWorld
@@ -37,6 +39,7 @@ public class HelloWorld
     }
 }
 ```
+## Member Functions
 Member functions can also be used in Java that would require you to create an object/instance of a class to access them. These functions cannot be accessed without an object. So the following code will produce an error.
 ```java
 public class Testing {
@@ -87,7 +90,8 @@ public class Testing {
     
 }
 ```
-7. Java uses various data types 
+## Java Data Types
+Java uses various data types 
 ```java
 public class Student {
     
@@ -106,7 +110,8 @@ public class Student {
     }
 }
 ```
-8. `printf` is another way of printing in Java
+## Console Printing
+`printf` is another way of printing in Java
 ```java
 public class Student {
     
@@ -121,7 +126,8 @@ public class Student {
     }
 }
 ```
-9. Instance members (variables) are used in Java much like member functions. More than 1 can be created. An instance of the class is required to access these variables inside a static method.
+## Instance Variables
+Instance members (variables) are used in Java much like member functions. More than 1 can be created. An instance of the class is required to access these variables inside a static method.
 ```java
 public class Student {
     String name = "Steve Jobs";
@@ -137,7 +143,7 @@ public class Student {
     }
 }
 ```
-10. Member functions can access instance variables without creating an instance of a class. However, to call a member function in a static function, an instance is required for that class.
+Member functions can access instance variables without creating an instance of a class. However, to call a member function in a static function, an instance is required for that class.
 ```java
 public class Student {
     String name = "Steve Jobs";
@@ -158,7 +164,8 @@ public class Student {
     }
 }
 ```
-11. Conditional statements in Java.
+## Conditional Statements
+Conditional statements in Java.
 ```java
 public class Student {
     String name = "Steve Jobs";
@@ -204,6 +211,7 @@ public class Student {
     }
 }
 ```
+## Loops
 Java has loops for reptition.
 ```java
     void progress()
@@ -217,6 +225,7 @@ Java has loops for reptition.
         }
     }
 ```
+## Functions with Return Types
 Java functions can return results based on various data types.
 ```java
 public class Numbers {
@@ -239,6 +248,7 @@ public class Numbers {
     }
 }
 ```
+## Casting
 Java allows casting from one data type to another. Java allows implicit casting as well as explicit casting.
 ```java
 // Implicit Casting
