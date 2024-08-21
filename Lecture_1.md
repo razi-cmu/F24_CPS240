@@ -18,7 +18,7 @@ public class HelloWorld
     public static void main(String[] args)
     {
         System.out.print("Hello World");
-        System.out.print("Ontario Tech");
+        System.out.print("Central Michigan University");
     }
 }
 ```
