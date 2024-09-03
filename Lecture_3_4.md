@@ -1,9 +1,10 @@
-# Linked Lists in Java (Class Code)
+# Overview of Data Structures (Review CPS 181)
 
+## Linked Lists
 A Link List is a series of nodes connected together. We can implement LinkedList from scratch in Java.
 
 `LinkedList.java`
-```
+```java
 package LinkedList_Implementation;
 
 class Node
@@ -16,7 +17,6 @@ class Node
         this.data = data;
     }
 }
-
 
 public class LinkedList {
 
@@ -59,7 +59,7 @@ public class LinkedList {
 }
 ```
 `Driver.java`
-```
+```java
 package LinkedList_Implementation;
 
 public class Driver {
@@ -75,9 +75,11 @@ public class Driver {
     }
 }
 ```
-LinkedList can perform actions like search. Below function returns true if found else false
 
-```
+### Linked List Search Operation
+LinkedList can perform operations like search. Below function returns true if found else false
+
+```java
 public Boolean search(int number)
     {
         Boolean found = false;
@@ -97,10 +99,11 @@ public Boolean search(int number)
         return found;
     }
 ```
-We can delete elements from the linkedlist as well.
+### Linked List Delete Operation
+We can delete elements from the linkedlist as well. An important thing to note here is to connect the previous node to the next node of the deleted node to make sure that Linked List is connected.
 
 `LinkedList.java`
-```
+```java
 package LinkedList_Implementation;
 
 class Node
@@ -205,14 +208,13 @@ public class LinkedList {
                 currentNode = null;
             }
         }
-
         
     }
     
 }
 ```
 `Driver.java`
-```
+```java
 package LinkedList_Implementation;
 
 public class Driver {
