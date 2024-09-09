@@ -3,7 +3,7 @@
 ## Classes and Objects
 Every object is an instance of a class, which serves as the type of the object and as a blueprint.
 
-	Student.java
+Student.java
  
 ```java
 	public class Student 
@@ -46,11 +46,11 @@ Every object is an instance of a class, which serves as the type of the object a
 		}
 
 	}
-	```
+```
 
-	Driver.java
+Driver.java
 
-	```java
+```java
 	public class Driver {
 		
 		public static void main(String[] args) 
@@ -67,8 +67,8 @@ Every object is an instance of a class, which serves as the type of the object a
 ## Wrapper Classes
 Wrapper classes are very handy as they provide excellent ways of dealing with regular data types. Let's consider an example below:
 
-	Driver.java
-	
+Driver.java
+```java	
 	import java.util.ArrayList;
 	import java.util.List;
 	import java.util.Scanner;
@@ -101,11 +101,11 @@ Wrapper classes are very handy as they provide excellent ways of dealing with re
 		   
 		}
 	}
+```
+The above program would give an issue as next characters in the line are still in the buffer and hence nextInt wont work as expected. We can update it as below:
 	
-	The above program would give an issue as next characters in the line are still in the buffer and hence nextInt wont work as expected. We can update it as below:
-	
-	Student.java
-	
+Student.java
+```java	
 	public class Student 
 	{
 		private String name;
@@ -146,9 +146,10 @@ Wrapper classes are very handy as they provide excellent ways of dealing with re
 		}
 
 	}
+```
+Driver.java
 
-	Driver.java
-	
+```java	
 	import java.util.ArrayList;
 	import java.util.List;
 	import java.util.Scanner;
@@ -182,11 +183,12 @@ Wrapper classes are very handy as they provide excellent ways of dealing with re
 		}
 		
 	}
+```
 	
 Another advantage of using Wrapper classes is availability of several built-in functions.
 
-	Student.java
-	
+Student.java
+```java
 	public class Student 
 	{
 		private String name;
@@ -227,9 +229,10 @@ Another advantage of using Wrapper classes is availability of several built-in f
 		}
 
 	}
+```
 
-	Driver.java
-	
+Driver.java
+```java	
 	import java.util.ArrayList;
 	import java.util.List;
 	import java.util.Scanner;
@@ -284,12 +287,13 @@ Another advantage of using Wrapper classes is availability of several built-in f
 		}
 		
 	}
+```
 
-
+## this Keyword
 Within the body of a method in Java, the keyword this is automatically defined as a reference to the instance upon which the method was invoked
 
-	Student.java
-	
+Student.java
+```java	
 	public class Student 
 	{
 		private String name;
@@ -330,14 +334,14 @@ Within the body of a method in Java, the keyword this is automatically defined a
 		}
 
 	}
-
-	The Driver class remains the same.
+```
+The Driver class remains the same.
 	
-	
+## Packages	
 Packages are a way to organize Java classes and interfaces. They provide a namespace to avoid naming conflicts.
 
-	Graduate.java
-	
+Graduate.java
+```java	
 	package com.cmu.Graduate;
 
 	public class Student 
@@ -359,9 +363,10 @@ Packages are a way to organize Java classes and interfaces. They provide a names
 		}
 
 	}
-	
-	Undergraduate.java
-	
+```
+Undergraduate.java
+
+ ```java
 	package com.cmu.Undergraduate;
 
 	public class Student 
@@ -381,9 +386,11 @@ Packages are a way to organize Java classes and interfaces. They provide a names
 		}
 
 	}
+```
 
-	Main.java
-	
+Main.java
+
+```java	
 	package com.cmu.Driver;
 
 	import com.cmu.Graduate.Student;
@@ -402,12 +409,13 @@ Packages are a way to organize Java classes and interfaces. They provide a names
 		}
 
 	}
+```
 
-
+## Inner Classes
 Inner Classes is valuable technique when implementing data structures, as an instance of a nested use can be used to represent a small portion of a larger data structure, or an auxiliary class that helps navigate a primary data structure.
 
-	Student.java
-	
+Student.java
+```java	
 	package com.cmu;
 
 	import java.util.Arrays;
@@ -457,9 +465,10 @@ Inner Classes is valuable technique when implementing data structures, as an ins
 		}
 
 	}
-	
-	Driver.java
-	
+```
+
+Driver.java
+```java	
 	package com.cmu;
 
 	public class Driver 
@@ -476,11 +485,13 @@ Inner Classes is valuable technique when implementing data structures, as an ins
 
 	}
 
+```
+## final Keyword
 
 A final is pretty handy keyword in java. It helps in avoiding accidental change of values for a variable
 
-	Student.java
-	
+Student.java
+```java	
 	public class Student {
 		String name;
 		int age;
@@ -491,3 +502,4 @@ A final is pretty handy keyword in java. It helps in avoiding accidental change 
 			this.student_type = "Graduate";
 		}
 	}
+```
