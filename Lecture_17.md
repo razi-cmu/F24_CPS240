@@ -1,4 +1,4 @@
-# Week 9: GUI (Basic Components and Event Driven Programming)
+# GUI (Basic Components and Event Driven Programming)
 
 ## JavaFX Basics
 JavaFX is the recommended framework for developing modern Java applications, providing a rich set of features and tools to create dynamic, user-friendly interfaces.
