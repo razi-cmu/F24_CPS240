@@ -1,4 +1,4 @@
-# Week 9: Event Driven Programming
+# Event Driven Programming
 
 ## Event Handling
 The interface contains the  method for processing the action event. Your handler class must override this method to respond to the event.
