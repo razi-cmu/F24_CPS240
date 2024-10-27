@@ -10,6 +10,18 @@ JavaFX is the recommended framework for developing modern Java applications, pro
 * Apply and Close.
 * In Eclipse > Help > Eclipse Marketplace, add JavaFX plugin
 * You can now create a new Java Project
+  
+In some cases, you might have to add the above created User Library manually to your Java projects. Follow steps below:
+* Right Click your Java Project in Eclipse and Click Build Path > Configure Build Path
+* Select the Libraries Tab and click Classpath.
+* Click Add Library > User Library, select JavaFX and click Finish.
+  
+In most of the cases, the above would solve the problem of JavaFX classes not available to use. However, in extreme cases you might have to configure the runtime environment for JavaFX
+* In Eclipse in the Menu Bar select Run > Run ConfigurationS. A window will pop up; click Arguments and paste the following in the VM Arguments:
+```
+--module-path "D:\Utils\openjfx-23.0.1_windows-x64_bin-sdk\javafx-sdk-23.0.1/lib" --add-modules javafx.controls,javafx.fxml
+```
+Make sure you update the above highlighted part to the path of JavaFX SDK you downloaded and extracted.
 	
 ### First JavaFX Application
 Once JavaFX is setup, you are now ready to create a GUI application using JavaFX in Java.
