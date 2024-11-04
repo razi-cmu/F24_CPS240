@@ -5,7 +5,7 @@ A TableView is a UI component in JavaFX that displays data in a tabular format.
 
 Fruit.java
 	
-	```java
+```java
 	
 	package com.cmu;
 
@@ -52,7 +52,7 @@ Fruit.java
 		}
 	}
 	
-	```
+```
 
 
 MyGUI.java
@@ -295,9 +295,9 @@ Individual Cell properties can be changed by setting CellFactory
 
 Let's add a checkbox to one of the columns of the TableView:
 
-	Fruit.java
+Fruit.java
 	
-	```java
+```java
 	
 	package com.cmu;
 
@@ -344,11 +344,11 @@ Let's add a checkbox to one of the columns of the TableView:
 		}
 	}
 	
-	```
+```
 
-	MyGUI.java
+MyGUI.java
 	
-	```java
+```java
 	package com.cmu;
 
 	import java.awt.Checkbox;
@@ -512,4 +512,4 @@ Let's add a checkbox to one of the columns of the TableView:
 
 	}
 	
-	```
+```
