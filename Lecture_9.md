@@ -12,7 +12,7 @@ CMU Medical Clinic is a general purpose clinic. Patients have to book an appoint
 
 
 ## Exercise 2
-CMU Course Registration system enables students to register for courses. Students use this student to enroll in the courses offered by CMU.
+CMU Course Registration system enables students to register for courses. Students use this system to enroll in the courses offered by CMU.
 - Tasks
   - Identify the classes
   - Create a Class Diagram for course registration
