@@ -278,7 +278,7 @@ Driver.java
 	}
 ```	
 - In the above code, a separate instance of printer class would have following issues:
-	- Printer is initialized for each instance. What if the initialization requires expensive / heavy codebase, e.g., connecting to the Internet of Database
+	- Printer is initialized for each instance. What if the initialization requires expensive / heavy codebase, e.g., connecting to the Internet or Database
 	- If Printer has some internal settings, each instance would have to maintain those internal settings for each instance
 	- What if multiple people print at the same time? This would create issues of random print mixup.
 		
