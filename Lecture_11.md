@@ -206,13 +206,15 @@ Let's see another example of builder. Let's assume we have a String below and we
 
 		public static void main(String[] args) 
 		{
-			String str = "Central Michigan University";
-			System.out.println(str);
-			
-			str+= ", Mt. Pleasant";
-			
-			System.out.println(str);
-		}
+	        String str = "Central Michigan University";
+	        System.out.println("Before: " + str);
+	        System.out.println("HashCode before: " + System.identityHashCode(str));
+	        
+	        str += ", Mt. Pleasant";
+	        
+	        System.out.println("After: " + str);
+	        System.out.println("HashCode after: " + System.identityHashCode(str));
+    	}
 
 	}
 ```
