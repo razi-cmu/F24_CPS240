@@ -228,12 +228,15 @@ Let's see another example of builder. Let's assume we have a String below and we
 
 		public static void main(String[] args) 
 		{
-			StringBuilder builder = new StringBuilder("Central Michigan University");
-			System.out.println(builder);
-			
-			builder.append(", Mt. Pleasant");
-			System.out.println(builder);
-		}
+	        StringBuilder sb = new StringBuilder("Central Michigan University");
+	        System.out.println("Before: " + sb);
+	        System.out.println("HashCode before: " + System.identityHashCode(sb));
+	        
+	        sb.append(", Mt. Pleasant");
+	        
+	        System.out.println("After: " + sb);
+	        System.out.println("HashCode after: " + System.identityHashCode(sb));
+    	}
 
 	}
 ```	
