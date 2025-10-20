@@ -3,7 +3,11 @@
 ## JavaFX Basics
 JavaFX is the recommended framework for developing modern Java applications, providing a rich set of features and tools to create dynamic, user-friendly interfaces.
 
-### Setting up JavaFX in Eclipse
+### Zulu SDK with JavaFX
+If you have Zulu SDK with JavaFX installed on your system, then JavaFX framework should work fine without any further configurations. It is recommended to install JavaFX plugin from Eclipse Marketplace (see details in the next section).
+
+### Setting up JavaFX in Eclipse (Non-Zulu SDK)
+If you have installed any Non-Zulu SDKs, you might need to install JavaFX manually by following the below steps:
 * Download JavaFX SDK from https://openjfx.io/index.html
 * Once downloaded, extract to some location on your computer
 * In Eclipse go to Preferences > Build Path > User Libraries and add a new library "JavaFX" and from Add External JARs, add all the JAR files in the downloaded folder's lib folder
