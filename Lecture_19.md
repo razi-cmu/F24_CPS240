@@ -162,6 +162,13 @@ Layouts can be mixed and matched to create GUI which can sometimes be complex in
 
 ```
 
+You can set the border of the pane to see the size of the pane. Below is an example of setting the border for the main pane.
+
+```java
+pane.setStyle("-fx-border-color: green; -fx-border-width: 2; -fx-border-style: solid;");
+
+```
+
 ## GridPane
 A  arranges nodes in a grid (matrix) formation. The nodes are placed in the specified column and row indices. 
 
@@ -199,6 +206,7 @@ A  arranges nodes in a grid (matrix) formation. The nodes are placed in the spec
 	    primaryStage.show();
 
 	}
+
 
 
 ```
