@@ -321,10 +321,12 @@ ListCell can be customized based on need as below:
 	fruits.setCellFactory(e -> new ListCell<String>() {
 			protected void updateItem(String item, boolean empty)
 			{
+				super.updateItem(item, empty);
 				setText(item);
 				setTextFill(Color.RED);
-				setFont(new Font("Ariel", 18));
+				setFont(new Font("Arial", 18));
 			}
 		});
 
 ```
+
