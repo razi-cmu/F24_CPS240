@@ -281,6 +281,7 @@ Individual Cell properties can be changed by setting CellFactory
 					return new TableCell<Fruit, String>() {
 						protected void updateItem(String item, boolean empty)
 						{
+							super.updateItem(item, empty);
 							setText(item);
 							setTextFill(Color.RED);
 							setAlignment(Pos.CENTER);
@@ -401,6 +402,7 @@ MyGUI.java
 					return new TableCell<Fruit, String>() {
 						protected void updateItem(String item, boolean empty)
 						{
+							super.updateItem(item, empty);
 							setText(item);
 							setTextFill(Color.RED);
 							setAlignment(Pos.CENTER);
@@ -513,3 +515,4 @@ MyGUI.java
 	}
 	
 ```
+
