@@ -135,7 +135,7 @@ In order to make sure the main thread is not blocked, expensive work should alwa
 
 ```
 
-Although the above program works but it is a good idea to explicity taking car of the new thread so that it can talk to the main method and proper synchronization of threads is achieved. 
+Although the above program works but it is a good idea to explicity taking care of the new thread so that it can talk to the main method and proper synchronization of threads is achieved. 
 
 Below is a better way of achieving the same results:
 
@@ -495,6 +495,7 @@ MyGUI.java
 			launch(args);
 		}
 	}
+
 
 
 ```
